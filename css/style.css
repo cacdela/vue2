@@ -1,0 +1,65 @@
+.list {
+    display: flex;
+}
+  
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    box-sizing: border-box;
+    
+}
+  
+button {
+    padding: 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#columns {
+    display: flex;
+    justify-content: center;
+}
+  
+.column {
+    width: 300px;
+    margin: 0 100px;
+}
+  
+.card {
+    background-color: #92b868;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+  
+.task {
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+  
+.task.done {
+    background-color: #acd36c;
+    color: #fff;
+}
+
+form{
+    width: 200px;
+
+}
+
+body{
+    background-color: rgb(168, 214, 137);
+}
+
+h2{
+    background-color:  #d0ffa4;
+    text-align: center;
+}
